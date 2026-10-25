@@ -1,0 +1,18 @@
+title: "Calor y energía en el Caribe: demanda horaria de Air-e y el modelo original ATER"
+author: "Edwin Yunis y Jairo Serrano — Maestría en Ingeniería Industrial · versión 4.0"
+copyright: "2026"
+execute:
+  execute_notebooks: "off"
+bibtex_bibfiles:
+  - references.bib
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+sphinx:
+  config:
+    language: es
+    math_numfig: true
+    html_static_path: ["_static"]
+    html_css_files: ["tablas.css"]
+    numfig: true
