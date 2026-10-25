@@ -1,0 +1,13 @@
+/* Tablas en Markdown del libro: mismo estilo que las tablas de los notebooks y del dashboard */
+.bd-article table.table, .bd-article table.docutils {
+  border-collapse: collapse; font-size: 0.88rem; border: 1px solid #DDE4E4; margin: 0.8rem 0 1.4rem;
+  font-variant-numeric: tabular-nums;
+}
+.bd-article table.table thead th, .bd-article table.docutils thead th {
+  background: #14262B; color: #fff; font-weight: 600; border-bottom: 3px solid #C0392B; padding: 7px 10px; vertical-align: bottom;
+}
+.bd-article table.table td, .bd-article table.docutils td { padding: 6px 10px; border-bottom: 1px solid #E6ECEC; vertical-align: top; }
+.bd-article table.table tbody tr:nth-child(even) td, .bd-article table.docutils tbody tr:nth-child(even) td { background: #F6F8F8; }
+.bd-article table.table tbody tr:hover td, .bd-article table.docutils tbody tr:hover td { background: #EEF3F3; }
+/* tablas de pandas: que no se salgan de la columna */
+.cell_output .output.text_html { overflow-x: auto; }
