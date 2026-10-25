@@ -1,0 +1,38 @@
+Horas: 52944 | desde 2020-10-01 00:00:00 hasta 2026-10-15 23:00:00
+count    52944.0
+mean      1209.6
+std        165.4
+min        758.7
+25%       1092.1
+50%       1193.1
+75%       1312.7
+max       1827.7
+Name: mwh, dtype: float64
+Por año (MWh/h media, pico, GWh):
+               mean     max      sum
+2020-12-31  1060.3  1313.6   2341.2
+2021-12-31  1107.2  1401.9   9698.7
+2022-12-31  1110.6  1400.7   9728.8
+2023-12-31  1176.3  1540.3  10304.8
+2024-12-31  1227.4  1582.0  10781.4
+2025-12-31  1301.3  1675.0  11399.8
+2026-12-31  1415.9  1827.7   9786.4
+Crecimiento demanda media 2021→2025: 17.5 %
+hora             0       1       2       3   ...      20      21      22      23
+laboral      1255.0  1214.0  1177.0  1145.0  ...  1343.0  1361.0  1354.0  1315.0
+sábado       1273.0  1233.0  1195.0  1161.0  ...  1275.0  1285.0  1290.0  1274.0
+dom/festivo  1230.0  1196.0  1163.0  1133.0  ...  1252.0  1280.0  1284.0  1257.0
+
+[3 rows x 24 columns]
+Festivo vs laboral (misma hora, media): -7.4 %
+Laboral 13-16 h, demanda media por índice de calor (°C):
+             mean  count
+calor                  
+(20, 30]  1127.0     82
+(30, 34]  1236.0   2093
+(34, 38]  1349.0   3155
+(38, 42]  1437.0    581
+(42, 46]  1464.0      1
+Corr. demanda diaria vs T máx del día: 0.265 | vs T máx del día anterior: 0.249
+Autocorrelación horaria rezago 24h: 0.897 | 168h: 0.876
+Faltantes clima (interpolados): {'T2M': 0, 'RH2M': 0}
